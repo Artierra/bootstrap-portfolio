@@ -1,0 +1,145 @@
+body {
+    width: 100%;
+    background-color: lightgrey;
+}
+
+header {
+    /*float: left;*/
+    background-color: #4aaaa5;
+    border-radius: 4%;
+    width: 40%;
+    padding: 2%;
+    margin: 2%;
+}
+
+.navbar {
+    float: right;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+nav {
+    float: right;
+    width: 25%;
+}
+
+.decoration {
+    height: 5%;
+    border-top: 2px solid #4aaaa5;
+    padding: 2%;
+    margin: 2%;
+    width: 92%;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+button {
+    border-radius: 4px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+button:hover {
+    border-radius: 4px;
+    background-color: rgb(3, 63, 63);
+    color: white;
+    border: 2px solid black;
+}
+
+h1,
+h4 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+section {
+    /* float: left;*/
+    background-color: white;
+    padding: 2%;
+    margin: 2%;
+    width: 92%;
+}
+
+.gallery {
+    /* float: left;*/
+    padding: 2%;
+    margin: 2%;
+    width: 42%
+}
+
+.Monica {
+    float: left;
+    padding: 1%;
+    margin: 1%;
+    width: 25%
+}
+
+.tall {
+    clear: both;
+    float: left;
+    padding: 2%;
+    margin: 2%;
+    width: 42%
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    width: 46%;
+}
+
+.text-block {
+    width: 66%;
+    position: absolute;
+    bottom: 2%;
+    right: 25%;
+    background-color: rgb(3, 63, 63);
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    
+}
+
+input {
+    display: block;
+    align-self: center;
+    width: 50%;
+    padding: 2%;
+    margin: 2%;
+}
+
+.teal {
+    background-color: #4aaaa5;
+    color: white;
+    border: solid 4%;
+    border-radius: 16%;
+    font-size: 24px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 96%;
+}
+
+.footer {
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    height: 20px;
+    padding: 4px;
+    border-top: solid 3px #4aaaa5
+}
