@@ -6,9 +6,9 @@
         width: 92%;
     }
     
-    .jumbotron h1 h4 {
-        color: rgb(1, 5, 15);
-        font-family: Georgia, 'Times New Roman', Times, seri;
+    .jumbotron-fluid .jumbotron h1 h4 {
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         background-color: #4aaaa5;
     }
     
@@ -55,11 +55,11 @@
         content: "";
         display: block;
         height: 75px;
-    }*/
+    }
     
     footer {
         background-color: #666666;
         height: 75px;
         text align: center;
         line-height: 100px;
-    }
+    }*?
